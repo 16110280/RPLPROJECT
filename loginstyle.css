@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ 
+body{
+    background: #c0c0c0;
+}
+ 
+div.konten{
+    background: #544b3d;
+    width: 350px;
+    margin: 222px auto 0;
+    border-radius: 16px;
+    min-height: 256px;
+    overflow: hidden;
+}
+ 
+div.kepala{
+    background: #544b3d;
+    padding: 10px 22px;
+    height: 60px;
+}
+ 
+h2.judul{
+    position: absolute;
+    margin-left: 47.5%;
+    margin-top: 1%;
+    color: #fff;
+    font-weight: normal;
+    display: inline-block;
+}
+  
+div.artikel{
+    padding:10px 22px 0;
+    color: #fff;
+
+}
+ 
+div.artikel div.grup{
+    margin: 16px 0;
+}
+ 
+div.artikel div.grup label,
+div.artikel div.grup input{
+    display: block;
+}
+ 
+div.artikel div.grup label{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+ 
+div.artikel div.grup input[type="text"],
+div.artikel div.grup input[type="password"]{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    background: #eeeeee;
+    border:none;
+    color: #808080;
+}
+ 
+div.artikel div.grup input[type="submit"]{
+    background: #3e82ef;
+    padding: 4px 16px;
+    margin: 0 auto;
+    border: 2px solid #3e82ef;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+ 
+div.artikel div.grup input[type="submit"]:hover{
+    background: #28a45e;
+}
