@@ -1,0 +1,106 @@
+@media (min-width: 992px) { 
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+.nav {
+	height: 100%;
+	width: 15%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #04224f;
+	opacity: .9;
+	transition: 0.7s;
+}
+.judul h1 {
+	display: block;
+	padding: 15px 15px;
+	font-size: 30px;
+	text-decoration: none;
+	color: #ed4a25;
+}
+.nav a {
+	display: block;
+	padding: 15px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover {
+	color: black;
+	background-color: #ed4a25; 
+	transition: 0.4s;
+}
+#content {
+	padding: 30;
+	width: 15%;
+	background-color: black;
+}
+.nav .logout{
+	margin-top: 280px;
+}
+.nav .logout a{
+	color: black;
+	background-color: #ed4a25;
+}
+.nav .logout a:hover{
+color: white;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+}
+#isi{
+	margin-left: 16%;
+}
+.panel {
+	width: 18%;
+	margin-top: 10px;
+	padding: 60px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.kotak1{
+	padding left: 120px;
+	padding-top: 140px;
+	padding-right: 120px;
+	width: 100px;
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 30px;
+	background: white;
+	border-radius: 8px;
+}
+.kotak2{
+	position: absolute;
+	padding left: 120px;
+	padding-top: 140px;
+	padding-right: 120px;
+	width: 100px;
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 30px;
+	background: white;
+	border-radius: 8px;
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
