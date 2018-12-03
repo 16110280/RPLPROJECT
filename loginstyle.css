@@ -6,12 +6,12 @@
 }
  
 body{
-	background-image:url(pic/q1.png);
+    background: #c0c0c0;
 }
  
 div.konten{
-    background:#999;
-	width: 350px;
+    background: #544b3d;
+    width: 350px;
     margin: 222px auto 0;
     border-radius: 16px;
     min-height: 256px;
@@ -19,23 +19,16 @@ div.konten{
 }
  
 div.kepala{
-    background:#999;
+    background: #544b3d;
     padding: 10px 22px;
     height: 60px;
 }
  
-h1 {
-	position:fixed;
-	text-align:center;
-	margin:100px 450px 300px 450px ;
-	text-color: #fff;
-	
-}
-
 h2.judul{
     position: absolute;
     margin-left: 47.5%;
     margin-top: 1%;
+    color: #fff;
     font-weight: normal;
     display: inline-block;
 }
@@ -43,6 +36,7 @@ h2.judul{
 div.artikel{
     padding:10px 22px 0;
     color: #fff;
+
 }
  
 div.artikel div.grup{
@@ -59,8 +53,8 @@ div.artikel div.grup label{
     margin-bottom: 10px;
 }
  
-div.artikel div.grup div.grup1 input[type="text"],
-div.artikel div.grup div.grup1 input[type="password"]{
+div.artikel div.grup input[type="text"],
+div.artikel div.grup input[type="password"]{
     width: 100%;
     height: 30px;
     padding: 0 10px;
@@ -70,7 +64,7 @@ div.artikel div.grup div.grup1 input[type="password"]{
 }
  
 div.artikel div.grup input[type="submit"]{
-
+    background: #3e82ef;
     padding: 4px 16px;
     margin: 0 auto;
     border: 2px solid #3e82ef;
@@ -81,14 +75,4 @@ div.artikel div.grup input[type="submit"]{
  
 div.artikel div.grup input[type="submit"]:hover{
     background: #28a45e;
-}
-
-div.grup1{
-	position:center;
-    padding: 20px 20px 20px 20px;
-    margin:200px 20px 20px 0px ;
-	
-}
-div.grup1:hover{
-	color:#000;
 }

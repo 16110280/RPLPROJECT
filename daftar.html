@@ -10,26 +10,26 @@
             <h2 class="judul">Sign Up Here</h2>
         </div>
         <div class="artikel">
-            <form action="#" method="post">
+            <form action="register.php" method="post" onSubmit="return validasi()">
                 <div class="grup">
                     <label for="NoKtp">No Ktp</label>
-                    <input type="text" placeholder="">
+                    <input name=noktp type="text" placeholder="">
                 </div>
                 <div class="grup">
                     <label for="Nama">Nama</label>
-                    <input type="text" placeholder="">
+                    <input name="nama" type="text" placeholder="">
                 </div>
                 <div class="grup">
                     <label for="Username">Username</label>
-                    <input type="text" placeholder="">
+                    <input name="username" type="text" placeholder="">
                 </div>
                 <div class="grup">
                     <label for="Email">Email</label>
-                    <input type="text" placeholder="">
+                    <input name="email" type="text" placeholder="">
                 </div>
                   <div class="grup">
                     <label for="password">Password</label>
-                    <input type="password" placeholder="">
+                    <input name="password" type="password" placeholder="">
                 </div>
                 <p>Jenis Kelamin</p>
                 <p><input type='radio' name='jenis_kelamin' value='pria' />Pria</p>
@@ -40,5 +40,10 @@
             </form>
         </div>
     </div>
-</body>
+</body> 
+<script> 
+function validasi(){
+    alert("data sukses ditambahkan");
+    } 
+</script> 
 </html>

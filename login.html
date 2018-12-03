@@ -9,14 +9,14 @@
         <div class="kepala">
         </div>
         <div class="artikel">
-            <form action="#" method="post">
+            <form action="login.php" method="post" onSubmit="return validasi()">
                 <div class="grup">
                     <label for="email">Username</label>
-                    <input type="text" placeholder="Masukkan Alamat Email Anda">
+                    <input type="text" name="username" id="username" placeholder="Masukkan Alamat Email Anda">
                 </div>
                 <div class="grup">
                     <label for="password">Password</label>
-                   <input type="password" placeholder="Masukkan password Anda">
+                   <input type="password" name="password" id="password" placeholder="Masukkan password Anda">
                 </div>
                 <div class="grup">
                     <input type="submit" value="Sign In">
@@ -25,4 +25,16 @@
         </div>
     </div>
 </body>
+<script type="text/javascript">
+    function validasi() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;       
+        if (username != "" && password!="") {
+            return true;
+        }else{
+            alert('Username dan Password harus di isi !');
+            return false;
+        }
+    }
+</script>
 </html>
