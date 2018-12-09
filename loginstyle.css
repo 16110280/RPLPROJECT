@@ -6,11 +6,10 @@
 }
  
 body{
-    background: #c0c0c0;
+    background-size: cover;
 }
  
 div.konten{
-    background: #544b3d;
     width: 350px;
     margin: 222px auto 0;
     border-radius: 16px;
@@ -19,7 +18,7 @@ div.konten{
 }
  
 div.kepala{
-    background: #544b3d;
+    background-color: transparent;
     padding: 10px 22px;
     height: 60px;
 }
